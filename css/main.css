@@ -5,3 +5,45 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+html {
+  line-height: 1.5;
+  background-color: #dbd6cf;
+}
+
+h1 {
+  font-family: 'Bevan', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: .6em;
+  background-color: #79756f;
+  border: 5px solid #595652;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-family: sans-serif;
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+nav li {
+  list-style-type: none;
+  padding: .5em .75em;
+  background-color: #713837;
+  margin: .3em;
+  display: inline-block;
+}
+
+ul a:hover {
+  background-color: #f33;
+  color: #fff;
+}
